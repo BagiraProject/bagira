@@ -1,2 +1,2 @@
-# bagira
-A project for Bagira charity project
+# Bagira
+This is a repository for Bagira charity project.
