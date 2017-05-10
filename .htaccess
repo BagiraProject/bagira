@@ -1,3 +1,11 @@
 RewriteEngine on
 #Login page
-RewriteRule ^login$ login.php
+RewriteRule ^account/signin/$ signin.php
+RewriteRule ^account/signin$ signin.php
+RewriteRule ^account/signin/email$ signin.php
+RewriteRule ^account/signin/email/$ signin.php
+RewriteRule ^account/signin/email/([^\.]+)$ signin.php?email=$1
+RewriteRule ^account/signin/email/([^\.]+)/$ signin.php?email=$1
+
+
+AddType application/x-httpd-php .css .js .xml .json .min.js .min.css
