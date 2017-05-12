@@ -11,9 +11,9 @@ define("ROOTDOMAIN","localhost");
 define("ROOT","http://localhost");
 //</app>
 //CONSTS
-define("EMAIL_REGEX","/^([a-z0-9_\.-]+)@([a-z0-9_\.-]+)\.([a-z\.]{2,6})$/");
-define("PASSWORD_REGEX","/^[a-z0-9_-]{6,18}$/");
-define("URL_REGEX","/^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/");
+define("EMAIL_REGEX","/^([a-zA-Z0-9_\.-]+)@([a-zA-Z0-9_\.-]+)\.([a-zA-Z\.]{2,6})$/");
+define("PASSWORD_REGEX","/^[a-zA-Z0-9_-]{6,18}$/");
+define("URL_REGEX","/^(https?:\/\/)?([\da-zA-Z\.-]+)\.([a-zA-Z\.]{2,6})([\/\w \.-]*)*\/?$/");
 //FUNCTIONS
 function db(){
 	//Performs a database connection and returns the Mysqli Object

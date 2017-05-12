@@ -3,5 +3,5 @@ require_once '../config.inc.php';
 $conn=db();
 initJson();
 $req = file_get_contents("php://input");
-@$json=json_decode($req, true);
-echo $json;
+//$json=json_decode($req, true);
+//print_r($req);
