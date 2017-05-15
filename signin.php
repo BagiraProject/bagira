@@ -1,5 +1,6 @@
 <?php
 	require_once 'config.inc.php';
+        require_once 'inc/html/html_basic.php';
 	init();
 	if(!isset($_GET['email'])){
 		$fieldval = "";
@@ -14,7 +15,7 @@
 		}
 	}
 	?>
-<!DOCTYPE html>
+<?=doctype()?>
 <html lang="ru">
 	<head>
 		<meta charset="utf-8">
